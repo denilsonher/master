@@ -6,4 +6,5 @@ class Program
     {
         Console.WriteLine("Hola Mundo");
     }
+    using System MostrarInformacion;
 }
