@@ -1,15 +1,21 @@
-public class CuerpoTecnico: Persona 
- {
-    public string Cargo { get; set; } 
-    public string Experiencia { get; set; }
+public class CuerpoTecnico : Persona
+{
+    public string Cargo { get; set; }
 
-    public string CuerpoTecnico (int id, string nombres, string apellidos, DateTime fechaNacimiento, string direccion, string cargo) : base(id, nombres, apellidos, fechaNacimiento, direccion) {
+    // Constructor correcto
+    public CuerpoTecnico(int id, string nombres, string apellidos, DateTime fechaNacimiento, string direccion, string cargo)
+        : base() // Llama al constructor de la clase base (Persona)
+    {
+        Id = id;
+        Nombres = nombres;
+        Apellidos = apellidos;
+        FechaNacimiento = fechaNacimiento;
+        Direccion = direccion;
         Cargo = cargo;
     }
-
-    public new void MostrarInformacion() {
-        base.MostrarInformacion();
+    public override void MostrarInformacion()
+    {
+        base.MostrarInformacion(); // Llama al método de la clase base
         Console.WriteLine($"Cargo: {Cargo}");
-        console.WriteLine($"Experiencia: {Experiencia}")
     }
 }

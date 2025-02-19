@@ -1,10 +1,12 @@
-using System;
 
-class Program
+
+class Programa
 {
     static void Main()
     {
         Console.WriteLine("Hola Mundo");
     }
-    using System MostrarInformacion;
+    public void  MostrarInformacion() {
+    
+    }
 }

@@ -1,0 +1,5 @@
+C:\Users\Denilson\microevaluacion\obj\Debug\net9.0\microevaluacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Denilson\microevaluacion\obj\Debug\net9.0\microevaluacion.AssemblyInfoInputs.cache
+C:\Users\Denilson\microevaluacion\obj\Debug\net9.0\microevaluacion.AssemblyInfo.cs
+C:\Users\Denilson\microevaluacion\obj\Debug\net9.0\microevaluacion.csproj.CoreCompileInputs.cache
+C:\Users\Denilson\microevaluacion\obj\Debug\net9.0\microevaluacion.sourcelink.json
